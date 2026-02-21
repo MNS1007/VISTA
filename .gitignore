@@ -29,3 +29,10 @@ Thumbs.db
 *.pt
 *.pth
 hub/
+# Large data files
+vesta/utils/data/*.csv
+vesta/utils/data/*.pdf
+vesta/utils/osha_incidents.db
+vesta/utils/osha_stats_cache.json
+*.db
+*.csv
