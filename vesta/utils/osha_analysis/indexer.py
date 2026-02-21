@@ -14,8 +14,8 @@ from typing import List, Optional
 
 
 def get_project_root() -> Path:
-    """Get the project root directory (parent of vesta)."""
-    return Path(__file__).parent.parent.parent
+    """Get the project root directory (utils folder)."""
+    return Path(__file__).parent.parent
 
 
 def safe_int(value: str) -> Optional[int]:

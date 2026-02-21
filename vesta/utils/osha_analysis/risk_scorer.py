@@ -19,8 +19,8 @@ from typing import Dict, List, Optional, Tuple
 
 
 def get_project_root() -> Path:
-    """Get the project root directory (parent of vesta)."""
-    return Path(__file__).parent.parent.parent
+    """Get the project root directory (utils folder)."""
+    return Path(__file__).parent.parent
 
 
 def get_category_filter(category: str) -> str:
